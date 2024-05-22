@@ -8,4 +8,155 @@ html,body{
     width: 100%;
     height: 100vh;
     font-family: "poppins";
+    background-color: aliceblue;
 }
+    /* home section start */
+#home{
+    width: 100%;
+    height: 90%;
+}
+#navbar{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#home-img{
+    cursor: pointer;
+}
+#navbar ul li{
+    display: inline-block;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    display: flex;
+    padding: 5px 15px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+    background-color: #dcc022;
+    padding: 15px 20px;
+    overflow: hidden;
+}
+#nav-book{
+    font-size: 26px;
+    font-weight: bolder;
+    color: #000;
+    margin-right: 20px;
+}
+#home #landing{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#landing #landing-btn h1{
+    color: #000;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: "philospher";
+}
+#landing #landing-btn h2{
+    color: #dcc022;
+    font-size: 60px;
+    margin-bottom: 60px;
+    font-weight: bolder;
+    font-family: "philospher";
+}
+#landing #landing-btn button{
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    background-color: #e7c100;
+}
+#landing #landing-btn button:hover{
+    background-color: #000;
+    color: #fff;
+}
+#landing img{
+    width: 600px;
+}
+#landing #landing-text h6{
+    font-family: "philospher";
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#landing #landing-text span{
+    color: #dcc022;
+}
+#landing #landing-text h6:hover{
+    color: #dcc022;
+}  
+/* home section end */
+
+/* about section start */
+#about{
+    width: 100%;
+    height: 105%;
+}
+#about-text{
+    width: 100%;
+    height: 15%;
+    background-color: aliceblue;
+}
+#about-text h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+#about-content{
+    width: 100%;
+    height: 90%;
+    background-color: #eac824;
+    display: flex;
+}
+#about-content #about-img img{
+    height: 450px;
+    width: 550px;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+#about-content #about-content-text{
+    margin-left: 12%;
+    margin-top: 10%;
+}
+#about-content #about-content-text h1{
+    font-size: 34px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#about-content #about-content-text h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+#about-content #about-content-text button{
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#about-content #about-content-text button:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* about section end */
