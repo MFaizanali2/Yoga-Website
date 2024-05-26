@@ -9,13 +9,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     </style>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="app.js"></script>
 </head>
 
 <body>
     <!-- section one start -->
     <section id="home">
-        <div id="navbar">
+        <div id="navbar" >
             <div id="home-img">
                 <img src="images/logo.png">
             </div>
@@ -35,15 +36,15 @@
             </div>
         </div>
         <div id="landing">
-            <div id="landing-btn">
+            <div id="landing-btn" data-aos="fade-up" data-aos-duration="500">
                 <h1>YOGA</h1>
                 <h2>DAY</h2>
                 <button>JOIN US</button>
             </div>
-            <div id="landing-img">
+            <div id="landing-img" data-aos="fade-up" data-aos-duration="1500">
                 <img src="images/banner-img.png">
             </div>
-            <div id="landing-text">
+            <div id="landing-text" data-aos="fade-up" data-aos-duration="2500">
                 <h6>PILATES <span>/</span></h6>
                 <h6>RELAXING <span>/</span></h6>
                 <h6>MASSAGE <span>/</span></h6>
@@ -58,14 +59,14 @@
 
     <!-- section about start -->
     <section id="about">
-        <div id="about-text">
+        <div id="about-text" >
             <h1>About Yoga Classes</h1>
         </div>
         <div id="about-content">
-            <div id="about-img">
+            <div id="about-img" data-aos="fade-up-right" data-aos-duration="1000">
                 <img src="images/about-img.png">
             </div>
-            <div id="about-content-text">
+            <div id="about-content-text" data-aos="fade-up-left" data-aos-duration="1000">
                 <h1>Best Yoga</h1>
                 <h6>ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
                     eiusmod tempor incididunt ut labore et dolore magna <br>
@@ -79,6 +80,10 @@
         </div>
     </section>
     <!-- section about end -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
