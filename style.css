@@ -113,6 +113,16 @@ body .cursor{
 #landing #landing-text h6:hover{
     color: #dcc022;
 }  
+
+    /* responsive section */
+
+    @media (max-width: 900px){
+
+    }
+    @media (max-width: 600px){
+        
+    }
+
 /* home section end */
 
 /* about section start */
