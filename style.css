@@ -26,7 +26,7 @@ body .cursor{
     /* home section start */
 #home{
     width: 100%;
-    height: 90%;
+    height: 90vh;
 }
 #navbar{
     width: 100%;
@@ -156,6 +156,8 @@ body .cursor{
     @media (max-width: 600px){
         #home-img{
             width: 200px;
+            position: absolute;
+            left: 20%;
         }
         #navbar ul li a{
             visibility: hidden;
