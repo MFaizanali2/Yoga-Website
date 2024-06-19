@@ -154,7 +154,40 @@ body .cursor{
         }
     }
     @media (max-width: 600px){
+        #home-img{
+            width: 200px;
+        }
+        #navbar ul li a{
+            visibility: hidden;
+        }
+        #nav-book{
+            visibility: hidden;
+        }
+        #landing{
+            width: 100%;
+            min-height: 500px;
+            height: auto;
+            display: block;
+        }
+        #landing #landing-btn h1{
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        #landing #landing-btn h2{
+            font-size: 60px;
+            margin-bottom: 50px;
 
+        }
+        #landing #landing-btn button{
+            padding: 15px 40px;
+        }
+        #landing img{
+            width: 600px;
+        }
+        #landing #landing-text h6{
+            font-size: 20px;
+            font-weight: bolder;
+        }
     }
 
 /* home section end */
