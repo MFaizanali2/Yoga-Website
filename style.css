@@ -115,7 +115,7 @@ body .cursor{
 }  
 
     /* responsive section */
-
+/* 
     @media (max-width: 900px){
         #home-img{
             width: 200px;
@@ -152,7 +152,7 @@ body .cursor{
             font-size: 18px;
             font-weight: 500;
         }
-    }
+    } */
     @media (max-width: 600px){
         #home-img{
             width: 200px;
