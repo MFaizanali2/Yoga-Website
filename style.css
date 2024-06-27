@@ -63,7 +63,7 @@ body .cursor{
 }
  #landing{
     width: 100%;
-    height: 78%;
+    height: 78vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -159,17 +159,12 @@ body .cursor{
             position: absolute;
             left: 20%;
         }
-        #navbar ul li a{
-            visibility: hidden;
-        }
-        #nav-book{
-            visibility: hidden;
+        #navbar ul li a, #nav-book{
+           display: none;
         }
         #landing{
             width: 100%;
-            min-height: 500px;
-            height: auto;
-            display: block;
+            flex-direction: column;
         }
         #landing #landing-btn h1{
             font-size: 60px;
@@ -183,12 +178,15 @@ body .cursor{
         #landing #landing-btn button{
             padding: 15px 40px;
         }
-        #landing img{
-            width: 600px;
+        #landing-img{
+            width: 100%;
+            flex-direction: column;
+
         }
         #landing #landing-text h6{
             font-size: 20px;
             font-weight: bolder;
+            width: 100%;
         }
     }
 
